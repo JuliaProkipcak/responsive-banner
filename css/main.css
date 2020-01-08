@@ -1,3 +1,38 @@
 html {
-  font-family: georgia, serif;
+  font-family: Georgia, serif;
+  color: #fff;
+  background-color: #495562;
+}
+
+.btn {
+  border-color: #97a49b;
+  color: #fff;
+}
+
+.btn-hover {
+  background-color: #fff;
+  color: transparent;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .content {
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .chop {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  .btn-ghost {
+    border-color: #efefef;
+  }
+
 }
